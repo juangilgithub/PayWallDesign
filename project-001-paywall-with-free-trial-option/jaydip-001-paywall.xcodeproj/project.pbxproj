@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F513271263ACD2F00ADA57D /* PaywallOneOptionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F513270263ACD2F00ADA57D /* PaywallOneOptionConfiguration.swift */; };
+		8F81DC62262AA0540081674D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81DC61262AA0540081674D /* AppDelegate.swift */; };
+		8F81DC6B262AA05A0081674D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F81DC6A262AA05A0081674D /* Assets.xcassets */; };
+		8F81DC6E262AA05A0081674D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F81DC6C262AA05A0081674D /* LaunchScreen.storyboard */; };
+		8F81DC7A262AA13B0081674D /* ExamplePaywallWithSeveralOptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81DC79262AA13B0081674D /* ExamplePaywallWithSeveralOptionsVC.swift */; };
+		8F81DC84262AA1DC0081674D /* BasePaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81DC83262AA1DC0081674D /* BasePaywallVC.swift */; };
+		8F81DC8C262AA2530081674D /* ProductInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81DC8B262AA2530081674D /* ProductInformation.swift */; };
+		8F81DC8F262AA2850081674D /* BasePaywallLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81DC8E262AA2850081674D /* BasePaywallLogic.swift */; };
+		8F81DC92262AA2C00081674D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81DC91262AA2C00081674D /* GradientView.swift */; };
+		8F81DC98262AA3140081674D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81DC97262AA3140081674D /* Extensions.swift */; };
+		8F81DC9B262AA34D0081674D /* PricePointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81DC9A262AA34D0081674D /* PricePointButton.swift */; };
+		8F98138C262AB09D00E1DD94 /* PaywallDarkOnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F981387262AA94D00E1DD94 /* PaywallDarkOnboardingVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F513270263ACD2F00ADA57D /* PaywallOneOptionConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallOneOptionConfiguration.swift; sourceTree = "<group>"; };
+		8F81DC5E262AA0540081674D /* jaydip-001-paywall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jaydip-001-paywall.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F81DC61262AA0540081674D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F81DC6A262AA05A0081674D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F81DC6D262AA05A0081674D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F81DC6F262AA05A0081674D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F81DC79262AA13B0081674D /* ExamplePaywallWithSeveralOptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePaywallWithSeveralOptionsVC.swift; sourceTree = "<group>"; };
+		8F81DC83262AA1DC0081674D /* BasePaywallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePaywallVC.swift; sourceTree = "<group>"; };
+		8F81DC8B262AA2530081674D /* ProductInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInformation.swift; sourceTree = "<group>"; };
+		8F81DC8E262AA2850081674D /* BasePaywallLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePaywallLogic.swift; sourceTree = "<group>"; };
+		8F81DC91262AA2C00081674D /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		8F81DC97262AA3140081674D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8F81DC9A262AA34D0081674D /* PricePointButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PricePointButton.swift; sourceTree = "<group>"; };
+		8F981387262AA94D00E1DD94 /* PaywallDarkOnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallDarkOnboardingVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F81DC5B262AA0540081674D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F51326F263ACD1600ADA57D /* Paywall Dark Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8F981387262AA94D00E1DD94 /* PaywallDarkOnboardingVC.swift */,
+				8F513270263ACD2F00ADA57D /* PaywallOneOptionConfiguration.swift */,
+			);
+			path = "Paywall Dark Onboarding";
+			sourceTree = "<group>";
+		};
+		8F81DC55262AA0540081674D = {
+			isa = PBXGroup;
+			children = (
+				8F81DC60262AA0540081674D /* jaydip-001-paywall */,
+				8F81DC5F262AA0540081674D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F81DC5F262AA0540081674D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F81DC5E262AA0540081674D /* jaydip-001-paywall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F81DC60262AA0540081674D /* jaydip-001-paywall */ = {
+			isa = PBXGroup;
+			children = (
+				8F81DC6F262AA05A0081674D /* Info.plist */,
+				8F81DC61262AA0540081674D /* AppDelegate.swift */,
+				8F981386262AA91F00E1DD94 /* Paywalls to build */,
+				8F81DC95262AA2E60081674D /* Example Paywall */,
+				8F81DC82262AA1C70081674D /* Base classes */,
+				8F81DC94262AA2CB0081674D /* Supporting files */,
+			);
+			path = "jaydip-001-paywall";
+			sourceTree = "<group>";
+		};
+		8F81DC82262AA1C70081674D /* Base classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F81DC83262AA1DC0081674D /* BasePaywallVC.swift */,
+				8F81DC8E262AA2850081674D /* BasePaywallLogic.swift */,
+				8F81DC8B262AA2530081674D /* ProductInformation.swift */,
+				8F81DC91262AA2C00081674D /* GradientView.swift */,
+				8F81DC97262AA3140081674D /* Extensions.swift */,
+				8F81DC9A262AA34D0081674D /* PricePointButton.swift */,
+			);
+			path = "Base classes";
+			sourceTree = "<group>";
+		};
+		8F81DC94262AA2CB0081674D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				8F81DC6C262AA05A0081674D /* LaunchScreen.storyboard */,
+				8F81DC6A262AA05A0081674D /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		8F81DC95262AA2E60081674D /* Example Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				8F81DC79262AA13B0081674D /* ExamplePaywallWithSeveralOptionsVC.swift */,
+			);
+			path = "Example Paywall";
+			sourceTree = "<group>";
+		};
+		8F981386262AA91F00E1DD94 /* Paywalls to build */ = {
+			isa = PBXGroup;
+			children = (
+				8F51326F263ACD1600ADA57D /* Paywall Dark Onboarding */,
+			);
+			path = "Paywalls to build";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F81DC5D262AA0540081674D /* jaydip-001-paywall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F81DC72262AA05A0081674D /* Build configuration list for PBXNativeTarget "jaydip-001-paywall" */;
+			buildPhases = (
+				8F81DC5A262AA0540081674D /* Sources */,
+				8F81DC5B262AA0540081674D /* Frameworks */,
+				8F81DC5C262AA0540081674D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jaydip-001-paywall";
+			productName = "jaydip-001-paywall";
+			productReference = 8F81DC5E262AA0540081674D /* jaydip-001-paywall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F81DC56262AA0540081674D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8F81DC5D262AA0540081674D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8F81DC59262AA0540081674D /* Build configuration list for PBXProject "jaydip-001-paywall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F81DC55262AA0540081674D;
+			productRefGroup = 8F81DC5F262AA0540081674D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F81DC5D262AA0540081674D /* jaydip-001-paywall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F81DC5C262AA0540081674D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F81DC6E262AA05A0081674D /* LaunchScreen.storyboard in Resources */,
+				8F81DC6B262AA05A0081674D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F81DC5A262AA0540081674D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F81DC7A262AA13B0081674D /* ExamplePaywallWithSeveralOptionsVC.swift in Sources */,
+				8F513271263ACD2F00ADA57D /* PaywallOneOptionConfiguration.swift in Sources */,
+				8F98138C262AB09D00E1DD94 /* PaywallDarkOnboardingVC.swift in Sources */,
+				8F81DC84262AA1DC0081674D /* BasePaywallVC.swift in Sources */,
+				8F81DC9B262AA34D0081674D /* PricePointButton.swift in Sources */,
+				8F81DC92262AA2C00081674D /* GradientView.swift in Sources */,
+				8F81DC8C262AA2530081674D /* ProductInformation.swift in Sources */,
+				8F81DC62262AA0540081674D /* AppDelegate.swift in Sources */,
+				8F81DC8F262AA2850081674D /* BasePaywallLogic.swift in Sources */,
+				8F81DC98262AA3140081674D /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F81DC6C262AA05A0081674D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F81DC6D262AA05A0081674D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F81DC70262AA05A0081674D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F81DC71262AA05A0081674D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F81DC73262AA05A0081674D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZRUU2Q993;
+				INFOPLIST_FILE = "jaydip-001-paywall/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinquisquater.jaydip-001-paywall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F81DC74262AA05A0081674D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZRUU2Q993;
+				INFOPLIST_FILE = "jaydip-001-paywall/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinquisquater.jaydip-001-paywall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F81DC59262AA0540081674D /* Build configuration list for PBXProject "jaydip-001-paywall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F81DC70262AA05A0081674D /* Debug */,
+				8F81DC71262AA05A0081674D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F81DC72262AA05A0081674D /* Build configuration list for PBXNativeTarget "jaydip-001-paywall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F81DC73262AA05A0081674D /* Debug */,
+				8F81DC74262AA05A0081674D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F81DC56262AA0540081674D /* Project object */;
+}
